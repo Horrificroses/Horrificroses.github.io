@@ -5,11 +5,10 @@
 }
 
 body {
-    background-color: #28254e;
-    color: #ffffff;
+    background-color: #0c0c0c;
+    color: #4E4E4E;
     margin: 0;
 }
-
 
 
 /*Header*/
@@ -17,50 +16,35 @@ h1 {
     font-family: 'Lobster Two', cursive;
     letter-spacing: 3px;
     font-size: 50px;
-    color: #c0c0c0;
+    color: white;
+
 }
 
 p{
     font-family: 'Lobster Two', cursive;
 }
 
-/*Navigation Bar*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(9, 9, 9, 0.5);
-}
 
-li {
-    float: left;
+.navbar-custom{
+    background-color: #efefef;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
 
-/*Image responsiveness*/
-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
-
 /*Heading to better format the page*/
 .header {
-    /*background-color: #efefef;*/
+
+    background-image: url("bgstars.png");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
     padding: 20px;
     text-align: center;
 }
@@ -107,11 +91,6 @@ img {
     opacity: 1;
 }
 
-.container {
-    position: relative;
-    display: none;
-}
-
 /* Expanding image text */
 #imgtext {
     position: absolute;
@@ -156,8 +135,7 @@ img {
     border: 2px solid gray;
   }
 
-  /*Skill bar graphs*/
-  /* Make sure that padding behaves as expected */
+ 
 * {box-sizing:border-box}
 
 /* Container for skill bars */
@@ -173,4 +151,24 @@ img {
   color: white; /* White text color */
 }
 
-.colorbar {width: 90%; background-color: steelblue;} 
+.colorbar {width: 90%; background-color: steelblue;}
+
+#content {
+    background-color: #FFF;
+    margin: 15px 20%;
+}
+
+.aboutimg{
+    border-radius: 4px;
+    width: 500px;
+}
+  .navbar {
+    background-color: #c0c0c0;
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+
+
+
