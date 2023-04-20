@@ -3,94 +3,135 @@
 
 <head>
   <title>Home Page</title>
-  
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/220828d6f3.js" crossorigin="anonymous"></script>
 
   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
-      
+    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
   </style>
-  
-   <!--Bootstrap-->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>        
-   <!--All Code for the HOME PAGE-->
 
-   <link rel="stylesheet" href="style.css">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-    <body>
-        <div class = 'header'>
-            <h1>Heaven Rust</h1>
-        </div>
-
-   <!--Nav Bar-->
-   
-   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Projects
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="gamedesign.html">Game Design</a></li>
-              <li><a class="dropdown-item" href="illustration.html">Illustration</a></li>
-              <li><a class="dropdown-item" href="misc.html">Miscellaneous</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
-      </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Heaven Rust</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#About">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
+  <!--Top of the page content-->
+  <div class="imagetextcontain">
+    <img class="imgfilt" src="bgstars.png" alt="background" class="img-fluid">
+  </div>
+    <div class="uppercentered">Hi I am,</div>
+    <h1 class="centered">Heaven Rust</h1>
+    <div class="lowercentered">Games, Interactive Media and Mobile student at Boise State University.</div>
+  </div>
+  
+<hr>
+  <!--About content-->
+  <div class="row">
+    <div class="col col-lg-2">
+      <img src="girlpower.jpg" alt="Picture of me" class="img-fluid">
+    </div>
+    <div class="col">
+      <h2 id="About">About me</h2>
+      <p class="lightertext">I'm a GIMM major at Boise State University. My specilties are design, illustration and a little bit of animation. I would describe myself as adventurous, outgoing, and charismatic. I really enjoy exploring new mediums and programs which allows me to be an interesting technical artist. Thank you for looking at my portfolio and I hope you enjoy my projects. </p>
+    </div>
+  </div>
+
+</hr>
+
+<hr>
+  <!--Projects content-->
+  <h2 class= "h2center" id="Projects">Projects</h2>
   <div class="container">
-  <!--Side column-->
-  <div class="col-md-3 side">
+    <div class="row">
+      <div class="col">
+        <h3>GIMM 200 Animation</h3>
+        <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/j9iCBeXv-dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>During my second semester at GIMM we had to do an animation that told a story. Me and my group mates decided to do an animation about how scary it is to grow up. I did the character design, found the royalty free music we used, and animated from 0:00 to 0:23. A lot of the animation I did involved tweening. We used Adobe Animate but I also tried out some of my animation in Open Toonz as well. It was pretty fun, although I wish I could have alloted more time towards the project.</p>
+      </div>
+
+      <div class="col">
+        <h3>Light City Chronicles</h3>
+        <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/KHm3eOUv9Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>Light City Chronicles in an interactive comic that me and a group of other GIMM students made. While I did not come up with the intial idea for the comic I did a majority of the writing for it. I also did the character design for UV girl, Microwaves, Gamma Rays, and Xray. I designed the cover page, did most of the dialog and wrote the final page of the comic. Additionally I made a radio tuning mini game so you can see whatever text Radiowaves was saying in the comic. I would have definetly spent more time on this mini game if I had not gotten so focused on project management and art, but I feel like all of my efforts were very important to the success of this project.</p>
+      </div>
+
+      <div class="w-100"></div>
+
+      <div class="col">
+        <h3>Green Thumb</h3>
+        <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/is9eFNRIghw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>Green Thumb was a game that me and a few other people made in a week for a Game Jam. It's a precision platformer with a focus on growth. When the main character dies they grow a platform that the player can jump on in their next life. The goal is to make it to the end of the level by dying the least amount of times. I worked mostly on the map artwork. Tilemaps, enemy designs and other things you could jump on were my biggest focus. I learned a lot about making tilemaps for this project and I would really love to be able to create more tilemaps for games in the future.</p>
+      </div>
+
+      <div class="col">
+        <h3>Mine Escape</h3>
+        <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/eAoRxnTLQhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p>Mine Escape was a game that I made in my first semester at GIMM. I did not make any of the art assets for this project and instead focused on making the code. It was my first time coding ever, and you can see from the gameplay that it is a little clunky, but for my first time i'm pretty impressed that I got as far as I did. I think about returning to this project sometimes and remaking it or improving the code and adding in my own art.</p>
+      </div>
+    </div>
   </div>
 
-  <div class="col-md-6 middle">
-        <hr>
-          <h1> Welcome to my portfolio!</h1>
-            <p>Short description here</p>
-        </hr>
+</hr>
+
+<hr>
+  <!--Contact content-->
+  <h2 class="h2center" id="Contact">Contact me</h2>
+
+  <!--Footer-->
+  <div class="footer">
+    <p>If you are curious about any of my work and would like to reach out, please use one of the links below!</p>
+    <button class="btn"><i class="fa-solid fa-envelope"></i><a href="mailto:heavenleerust29@gmail.com"></a></button>
+    <button class="btn"><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/HeavenleeVT"></a></button>
+    <button class="btn"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/heavenleerust/"></a></button>
+    <button class="btn"><i class="fa-brands fa-github"></i><a href="https://github.com/Horrificroses"></a></button>
   </div>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BNRQF571N1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        <!--Side column-->
-        <div class="col-md-3 side">
-        </div>
-
-        </div>
-
-           <!--Footer-->
-           <div class="footer">
-            <button class = "btn"><i class="fa-solid fa-envelope"></i></i><a href = "mailto:heavenleerust29@gmail.com"></button>
-            <button class = "btn"><i class="fa-brands fa-twitter"></i></i></i><a href = "https://twitter.com/HeavenleeVT"></a></button>
-        </div>
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNRQF571N1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BNRQF571N1');
-</script>
-    </body>
+    gtag('config', 'G-BNRQF571N1');
+  </script>
+</hr>
+</body>
 
 </html>
