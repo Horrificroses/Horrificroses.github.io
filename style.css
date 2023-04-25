@@ -182,9 +182,9 @@ li a:hover {
 
   .uppercentered {
     position: absolute;
-    top: 40%;
+    margin: 10px;
+    top: 250px;
     left: 40%;
-    transform: translate(-50%, -50%);
     color: white;
   }
 
