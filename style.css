@@ -20,14 +20,6 @@ h1 {
 
 }
 
-.navbar-custom{
-    background-color: #efefef;
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
 
 /*Heading to better format the page*/
 .header {
